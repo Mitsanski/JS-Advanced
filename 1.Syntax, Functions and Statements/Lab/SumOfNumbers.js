@@ -1,11 +1,12 @@
-function sumOfNumbers(n, m) {
-        let sum = 0;
-        n = Number(n)
-        m = Number(m)
-        for (let i = n; i <= m; i++){
-                sum += i;
-        }
-        return sum;
+function sumOfNumbers(a, b) {
+    a = Number(a);
+    b = Number(b);
+    let total = 0;
+
+    for (let i = a; i <= b; i++) {
+        total += i;
+    }
+    console.log(total);
 }
-sumOfNumbers('1', '5');
-sumOfNumbers('-8', '20');
+sumOfNumbers("-8", "20");
+sumOfNumbers("1", "5");
